@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>GB Filter</title>
+		<link rel="stylesheet" href="common.css">
+		<script src="main.js"></script>
+		<script src="yrGL.js"></script>
+		<script src="yrUtil.js"></script>
+		<script src="yrTimer.js"></script>
+		<script src="gl-matrix-min.js"></script>
+		<script src="imaged.js"></script>
+		<script src="gbfilter.js"></script>
+	</head>
+	<body><script type="text/javascript" charset="utf-8" src="encount.js"></script>
+		
+		<div id="main" style="margin: auto; max-width: 70%;">
+			<h1>GB Filter</h1>
+			<input id="input_image" type="file" accept="image/*"/><br>
+			<br>
+			<canvas style="float:left;" id="canvas_main" width="640" height="576">canvas</canvas>
+			<br>
+			<br>
+			<form name="form_ui" style="float:left;padding-left: 5%;">
+				Process the image (If unchecked, the original image will be displayed)
+				<br>
+				<input type="checkbox" name="enable" value="0" checked="checked">
+				<br>
+				<br>
+				Brightness adjustment
+				<br>
+				Light<input type="range" name="curve" min="20" max="200" step="1" value="70">Dark
+				<br>
+				<br>
+				High gradation
+				<br>
+				<input type="checkbox" name="hi_tone" value="0" checked="checked">
+				<br>
+				<br>
+				Dot grid
+				<br>
+				<input type="checkbox" name="grid" value="0">
+				<br>
+				<br>
+				Filter color
+				<br>
+				Red<input type="range" name="filter_color_r" min="0" max="100" step="1" value="60">
+				<br>
+				Green<input type="range" name="filter_color_g" min="0" max="100" step="1" value="80">
+				<br>
+				Blue<input type="range" name="filter_color_b" min="0" max="100" step="1" value="40">
+			</form>
+			
+		</div>
+		
+		
+	</body>
+</html>
+
