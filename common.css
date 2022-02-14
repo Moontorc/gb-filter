@@ -89,6 +89,15 @@ table tr:nth-child(even)
     flex: 1;
 }  
 
+.parent-flex{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-flex {
+	margin-top: auto;
+}
+
 .flex-child:first-child {
     margin-right: 20px;
 } 
