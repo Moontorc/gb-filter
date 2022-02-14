@@ -80,6 +80,6 @@ table tr:nth-child(even)
 }
 
 
-#canvas_holder {}
+#canvas_holder {float:left;}
 
-#form-holder {}
+#form-holder {float:left;}
