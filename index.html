@@ -16,17 +16,18 @@
 	</head>
 	<body><script type="text/javascript" charset="utf-8" src="encount.js"></script>
 		
-		<div id="main" style="margin: auto; max-width: 70%;">
+		<div class="flex-container" id="main" style="margin: auto; max-width: 70%;">
+		
 			<h1>GB Filter</h1>
 			<input id="input_image" type="file" accept="image/*"/><br>
 			<br>
 			
 			
-			<div id="canvas_holder">
+			<div class="flex-child">
 				<canvas  id="canvas_main" width="640" height="576">canvas</canvas>
 			</div>
 			
-			<div id="form-holder">
+			<div class="flex-child">
 				<form name="form_ui">
 					Process the image (If unchecked, the original image will be displayed)
 					<br>
