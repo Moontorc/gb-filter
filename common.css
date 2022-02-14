@@ -78,3 +78,8 @@ table tr:nth-child(even)
 	padding-left:  10px;
 	padding-right: 10px;
 }
+
+
+#canvas_holder {}
+
+#form-holder {}
