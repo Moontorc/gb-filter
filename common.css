@@ -80,6 +80,14 @@ table tr:nth-child(even)
 }
 
 
-#canvas_holder {float:left;}
+.flex-container {
+    display: flex;
+}
 
-#form-holder {float:left;}
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
