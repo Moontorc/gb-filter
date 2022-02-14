@@ -99,8 +99,8 @@ table tr:nth-child(even)
 	flex-direction: column;
 }
 
-.footer-flex {
-	margin-top: auto;
+.flex-footer {
+	order: 2;
 }
 
 .flex-child:first-child {
