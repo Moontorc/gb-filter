@@ -82,6 +82,7 @@ table tr:nth-child(even)
 
 .flex-container {
     display: flex;
+	justify-content:space-evenly;
 }
 
 .flex-child {
