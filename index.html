@@ -19,45 +19,50 @@
 			<h1>GB Filter</h1>
 			<input id="input_image" type="file" accept="image/*"/><br>
 			<br>
-			<canvas style="float:left;" id="canvas_main" width="640" height="576">canvas</canvas>
-			<br>
-			<br>
-			<form name="form_ui" style="float:left;">
-				Process the image (If unchecked, the original image will be displayed)
-				<br>
-				<input type="checkbox" name="enable" value="0" checked="checked">
-				<br>
-				<br>
-				Brightness adjustment
-				<br>
-				Light<input type="range" name="curve" min="20" max="200" step="1" value="70">Dark
-				<br>
-				<br>
-				High gradation
-				<br>
-				<input type="checkbox" name="hi_tone" value="0" checked="checked">
-				<br>
-				<br>
-				Dot grid
-				<br>
-				<input type="checkbox" name="grid" value="0">
-				<br>
-				<br>
-				Filter color
-				<br>
-				Red<input type="range" name="filter_color_r" min="0" max="100" step="1" value="60">
-				<br>
-				Green<input type="range" name="filter_color_g" min="0" max="100" step="1" value="80">
-				<br>
-				Blue<input type="range" name="filter_color_b" min="0" max="100" step="1" value="40">
-			</form>
+			
+			
+			<div id="canvas_holder">
+				<canvas  id="canvas_main" width="640" height="576">canvas</canvas>
+			</div>
+			
+			<div id="form-holder">
+				<form name="form_ui">
+					Process the image (If unchecked, the original image will be displayed)
+					<br>
+					<input type="checkbox" name="enable" value="0" checked="checked">
+					<br>
+					<br>
+					Brightness adjustment
+					<br>
+					Light<input type="range" name="curve" min="20" max="200" step="1" value="70">Dark
+					<br>
+					<br>
+					High gradation
+					<br>
+					<input type="checkbox" name="hi_tone" value="0" checked="checked">
+					<br>
+					<br>
+					Dot grid
+					<br>
+					<input type="checkbox" name="grid" value="0">
+					<br>
+					<br>
+					Filter color
+					<br>
+					Red<input type="range" name="filter_color_r" min="0" max="100" step="1" value="60">
+					<br>
+					Green<input type="range" name="filter_color_g" min="0" max="100" step="1" value="80">
+					<br>
+					Blue<input type="range" name="filter_color_b" min="0" max="100" step="1" value="40">
+				</form>
+			</div>
 			
 			
 			
 			
 		</div>
 		
-		<center><small style="color:#fff;">Restyle by Moontorc. Original by <a href="http://yrlab.zatunen.com/webgl/gbpic/gbpic.html" target="_blank">Yunta Robo</a></small></center>
+		<center><small style="color:#fff;">Restyle by Moontorc. Original by <a href="http://yrlab.zatunen.com/webgl/gbpic/gbpic.html" target="_blank" style="color:#fff;">Yunta Robo</a></small></center>
 	</body>
 </html>
 
