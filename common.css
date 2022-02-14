@@ -85,12 +85,17 @@ table tr:nth-child(even)
 	justify-content:space-evenly;
 }
 
+.flex-title {
+    flex: 1;
+}  
+
 .flex-child {
     flex: 1;
 }  
 
 .parent-flex {
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 }
 
