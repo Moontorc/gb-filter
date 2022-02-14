@@ -89,7 +89,7 @@ table tr:nth-child(even)
     flex: 1;
 }  
 
-.parent-flex{
+.parent-flex {
 	display: flex;
 	flex-direction: column;
 }
