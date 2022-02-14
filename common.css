@@ -1,0 +1,80 @@
+﻿body
+{
+	font-size: 16px;
+	line-height: 1.35;
+	background-color: #071821;
+	color: #86c06c;
+	margin: 8px;
+	padding: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+h1
+{
+	border-bottom: 4px solid #86c06c;
+	color: #86c06c;
+	font-size: 42px;
+	font-family: 'Syne Mono', monospace;
+}
+
+h2
+{
+	border-bottom: 2px solid #808080;
+	color: #808080;
+	font-size: 24px;
+}
+
+table
+{
+	width:100%;
+}
+
+table, th, td
+{
+	border: 1px solid #808080;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table tr:nth-child(odd)
+{
+	background-color: #ffff90;
+}
+
+table tr:nth-child(even)
+{
+	background-color: #ffffc0;
+}
+
+#main
+{
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left:  15px;
+	padding-right: 15px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#debug
+{
+	font-size: 14px;
+	line-height: 1.2;
+	color: #0000ff;
+}
+
+#code
+{
+	font-size: 14px;
+	line-height: 1.2;
+	color: #ffffff;
+	background-color: #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:  10px;
+	padding-right: 10px;
+}
