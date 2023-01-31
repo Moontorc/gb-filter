@@ -31,7 +31,7 @@
 			
 			
 			<div class="flex-child">
-				<canvas  id="canvas_main" width="640" height="576">canvas</canvas>
+				<canvas  id="canvas_main" width="640" height="576" canvas.toDataURL('png')>canvas</canvas>
 			</div>
 			
 			<div class="flex-child">
@@ -63,6 +63,8 @@
 					Green<input type="range" name="filter_color_g" min="0" max="100" step="1" value="80">
 					<br>
 					Blue<input type="range" name="filter_color_b" min="0" max="100" step="1" value="40">
+					<br>
+					<a href="%dataURI%" download>download</a>
 				</form>
 			</div>
 			
