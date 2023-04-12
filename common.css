@@ -2,8 +2,8 @@
 {
 	font-size: 16px;
 	line-height: 1.35;
-	background-color: #0d0719;
-	color: #2f106b;
+	background-color: #06030c;
+	color: #5600f9;
 	margin: 8px;
 	padding: 8px;
 }
@@ -12,8 +12,8 @@
 
 h1
 {
-	border-bottom: 4px solid #2f106b;
-	color: #2f106b;
+	border-bottom: 4px solid #5600f9;
+	color: #5600f9;
 	font-size: 42px;
 	font-family: 'Syne Mono', monospace;
 }
